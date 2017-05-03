@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-jun-2015, 18:32:57
+    Author     : Usuario
+*/
+/*
+TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+root {
+display: block;
+}
+*{
+font-family:sans-serif;
+font-size:18px;
+}
+body{
+background-color:#fbfbfb;
+}
+h1, h2, h3, h4, h5, h6{
+text-align:center;
+}
+p.alerta{
+text-align:center;
+color:#F00;
+position:relative;
+}
+
+form fieldset{
+-moz-border-radius:10px;
+border-style:solid;
+border-width:1px;
+border-color:#868686;
+}
+form input{
+-moz-border-radius:5px;
+height:30px;
+border:1px solid #868686;
+padding-left:5px;
+padding-right:5px;
+}
+form button{
+-moz-border-radius:5px;
+border:1px solid #868686;
+background-color:#d6d6d6;
+margin:10px 0;
+}
+div#contenedor{
+margin:5em auto 0 auto;
+width:510px;
+border:1px solid #868686;
+-moz-border-radius:10px;
+padding:10px;
+}
